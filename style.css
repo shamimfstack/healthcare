@@ -208,7 +208,7 @@ ul {
 
 /* about section styles starts here */
 .about-section {
-  margin: 100px 0;
+  padding: 50px 0;
 }
 .about-container {
   display: flex;
@@ -319,7 +319,7 @@ ul {
 
 /* servive section styles starts here */
 .service-section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .service-container {
   display: grid;
@@ -428,3 +428,87 @@ ul {
   text-align: left;
 }
 /* servive section styles ends here */
+
+/* testimonial section styles ends here */
+.testimonial-section {
+  padding: 50px 0;
+}
+
+.testimonial-content {
+  color: #020043;
+}
+
+.testimonial-content h5 {
+  text-align: center;
+  width: 139px;
+  padding: 10px;
+  /* height: 43.4px; */
+  gap: 0px;
+  border-radius: 25px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #343268;
+}
+
+.testimonial-content h3 {
+  /* width: 396px;
+  height: 108px;
+  gap: 0px;
+  opacity: 0px; */
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-around;
+  color: #020043;
+}
+
+.testimonial-card {
+  width: 371px;
+  height: 241px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.testimonial-card h4 {
+  width: 331px;
+  height: 57px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28.5px;
+  text-align: left;
+  
+}
+.testimonial-card p {
+  width: 331px;
+  /* height: 72px; */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin: 10px 0;
+}
+.testimonial-card img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.testimonial-card .inner-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.testimonial-card div p {
+}
+.testimonial-card .rating {
+}
+
+.testimonial-card .rating i{
+  color: rgba(255, 224, 61, 1);
+  margin: 0;
+}
+/* testimonial section styles ends here */
