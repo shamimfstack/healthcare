@@ -292,16 +292,6 @@ ul {
   padding: 24px;
 }
 
-/* 
-.about-img .overlay-content {
-  width: 347px;
-height: 116px;
-top: 1401px;
-left: 666px;
-gap: 0px;
-opacity: 0px;
-
-} */
 .about-image .overlay h4 {
   width: 263px;
   height: 24px;
@@ -326,3 +316,115 @@ opacity: 0px;
   opacity: 0px;
 }
 /* about section styles ends here */
+
+/* servive section styles starts here */
+.service-section {
+  padding: 100px 0;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px;
+}
+.service-content {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #020043;
+}
+.service-content h5 {
+  text-align: center;
+  width: 139px;
+  padding: 10px;
+  /* height: 43.4px; */
+  gap: 0px;
+  border-radius: 25px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #343268;
+}
+.service-content h3 {
+  width: 396px;
+  height: 108px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.service-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.service-content button {
+  width: 158.31px;
+  height: 51.31px;
+  top: 1503px;
+  left: 139px;
+  padding: 12px 16px 12px 24px;
+  gap: 4px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #ffc637;
+  font-weight: bold;
+  border: 0;
+}
+
+.service-content button img {
+  margin-left: 10px;
+  width: 12px;
+}
+
+.service-card {
+  position: relative;
+  /* gap: 0px;
+  border-radius: 32px; */
+}
+.service-card img {
+  /* position: relative; */
+  gap: 0px;
+  border-radius: 32px;
+}
+
+.service-card .overlay {
+  position: absolute;
+  width: 321px;
+  height: 144px;
+  top: 236px;
+  left: 16px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: rgba(2, 0, 67, 0.8);
+  padding: 21px;
+  color: #fff;
+}
+
+.service-card .overlay h4 {
+  width: 263px;
+  height: 24px;
+  top: 1401px;
+  left: 666px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: left;
+}
+.service-card .overlay-content p {
+  width: 347px;
+  height: 72px;
+  top: 1445px;
+  left: 666px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+/* servive section styles ends here */
