@@ -577,7 +577,7 @@ ul {
   margin-top: 10px;
 }
 
-.question-container .questions div{
+.question-container .questions div {
   width: 1160px;
   padding: 0 20px;
   width: 1071.65px;
@@ -587,11 +587,84 @@ ul {
   display: flex;
   align-items: center;
 }
-.question-container .questions div:not(:last-child){
+.question-container .questions div:not(:last-child) {
   margin-bottom: 10px;
 }
 
-
 /* faq section styles ends here */
-/* testimonial section styles ends here */
+
+/* appointment section styles starts here */
+.appointment-section {
+  padding: 50px;
+  width: 1160px;
+  height: 477px;
+  border-radius: 32px;
+  background-image:
+    linear-gradient(to right,  rgb(10, 8, 73), rgba(50, 55, 82, 0.52)),
+    url('assets/images/Rectangle 32.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.appointment-container {
+}
+
+.appointment-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-content .first-div {
+  width: 530px;
+  height: 255.31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.appointment-content .first-div h3 {
+  width: 530px;
+  height: 180px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.appointment-content .second-div img {
+  width: 124.82px;
+height: 33px;
+
+}
+/* appointment section styles ends here */
+
+/* appointment section styles starts here */
+.appointment-content .button-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.appointment-content button {
+  width: 158.31px;
+  height: 51.31px;
+  top: 1503px;
+  left: 139px;
+  padding: 12px 16px 12px 24px;
+  gap: 4px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #ffc637;
+  font-weight: bold;
+  border: 0;
+}
+
+.appointment-content button img {
+  margin-left: 10px;
+  width: 12px;
+}
+/* appointment section styles ends here */
+
+/* testimonial section styles starts here */
 /* testimonial section styles ends here */
