@@ -481,7 +481,6 @@ ul {
   font-weight: 600;
   line-height: 28.5px;
   text-align: left;
-  
 }
 .testimonial-card p {
   width: 331px;
@@ -507,8 +506,92 @@ ul {
 .testimonial-card .rating {
 }
 
-.testimonial-card .rating i{
+.testimonial-card .rating i {
   color: rgba(255, 224, 61, 1);
   margin: 0;
 }
+/* testimonial section styles ends here */
+
+/* faq section styles starts here */
+.faq-section {
+  padding: 50px;
+}
+
+.faq-content {
+  color: #020043;
+}
+
+.faq-content h5 {
+  text-align: center;
+  width: 139px;
+  padding: 10px;
+  /* height: 43.4px; */
+  gap: 0px;
+  border-radius: 25px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #343268;
+}
+
+.faq-content h3 {
+  /* width: 396px;
+  height: 108px;
+  gap: 0px;
+  opacity: 0px; */
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+
+.question-container {
+  /* background-color: #FFFFF5; */
+  padding: 40px;
+  /* overflow: hidden; */
+}
+
+.question-container h4 {
+  background-color: #fffff5;
+
+  padding: 25px 0 0 25px;
+  margin-top: auto;
+  width: 1160px;
+  height: 60px;
+  border-radius: 8px;
+}
+.question-container p {
+  height: 47px;
+  padding: 20px;
+  width: 1011px;
+  height: 47px;
+  opacity: 0.6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(52, 50, 104);
+  margin-bottom: 30px;
+}
+
+.question-container .questions {
+  margin-top: 10px;
+}
+
+.question-container .questions div{
+  width: 1160px;
+  padding: 0 20px;
+  width: 1071.65px;
+  /* height: 24px; */
+  background-color: #fffff5;
+  /* margin: 10px 0; */
+  display: flex;
+  align-items: center;
+}
+.question-container .questions div:not(:last-child){
+  margin-bottom: 10px;
+}
+
+
+/* faq section styles ends here */
+/* testimonial section styles ends here */
 /* testimonial section styles ends here */
