@@ -319,7 +319,7 @@ ul {
 
 /* servive section styles starts here */
 .service-section {
-  padding: 50px 0;
+  padding: 200px 0;
 }
 .service-container {
   display: grid;
@@ -666,5 +666,46 @@ height: 33px;
 }
 /* appointment section styles ends here */
 
-/* testimonial section styles starts here */
-/* testimonial section styles ends here */
+/* footer section styles starts here */
+footer {
+  background-color: #020043;
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.footer-content {
+  color: #fff;
+  
+}
+
+footer img {
+  width: 124.82px;
+height: 33px;
+top: 4871px;
+left: 140px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+footer div{
+  
+  display: flex;
+  justify-content: space-around;
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* gap: 10px; */
+}
+
+
+/* footer section styles ends here */
